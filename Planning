@@ -1,0 +1,23 @@
+Planning
+
+Classes:
+
+Game
+  State: players, questions/responses
+
+  Behaviour: game loop (manage current_player)
+
+Player
+  State: name, score
+
+  Behaviour: answer_question, reduce_score
+
+Turn
+State: whose turn
+
+Behaviour: generate/ask question
+
+Question
+  State: list of questions / responses
+
+  Behaviour: check_answers
