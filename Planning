@@ -1,5 +1,4 @@
 Planning
-
 Classes:
 
 Game
@@ -21,3 +20,25 @@ Question
   State: list of questions / responses
 
   Behaviour: check_answers
+
+
+Start game
+loop:
+  Player 1 is asked a question
+  player 1 answers
+    if correct
+      new turn
+    else
+      reduce score
+      new turn
+  player 2 is asked a question
+  .
+  .
+  .
+    if correct
+      new turn
+    else
+      reduce score to 0
+      end game
+end loop
+game over
